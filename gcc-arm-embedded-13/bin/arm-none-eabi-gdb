@@ -1,0 +1,4 @@
+#!/nix/store/8vpg72ik2kgxfj05lc56hkqrdrfl8xi9-bash-5.2p37/bin/bash
+export PYTHONPATH=/nix/store/ss129f2qszibjqllri5iakxl7lpi3lgz-python3-3.9.21/lib/python3.9
+export PYTHONHOME=/nix/store/ss129f2qszibjqllri5iakxl7lpi3lgz-python3-3.9.21/bin/python3.9
+exec /nix/store/x3blpdqrxm34chpnmjvdmcpysvc57ja1-gcc-arm-embedded-13.3.rel1/bin/arm-none-eabi-gdb-unwrapped "$@"
